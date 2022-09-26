@@ -1,7 +1,8 @@
+
 /*
- * Public API Surface of material-dayjs-adapter
+ * Public API for material-dayjs-adapter
  */
 
-export * from './lib/material-dayjs-adapter.service';
-export * from './lib/material-dayjs-adapter.component';
-export * from './lib/material-dayjs-adapter.module';
+export * from './lib/adapter/index';
+export { MAT_DAYJS_DATE_ADAPTER_OPTIONS } from './lib/adapter/date-adapter';
+export { MAT_DAYJS_DATE_FORMATS } from './lib/adapter/date-formats';
