@@ -1,11 +1,34 @@
 {
-  "name": "material-dayjs-adapter",
-  "version": "0.0.1",
+  "name": "@earthnoob/material-dayjs-adapter",
+  "version": "0.0.1-alpha",
+  "schematics": "./schematics/collection.json",
+  "author": {
+    "name": "Johnathan Le",
+    "url": "https://github.com/earthnoob"
+  },
+  "description": "A Material UI date adapter based on dayjs.",
+  "repository": {
+    "url": "https://github.com/earthnoob/material-dayjs-adapter"
+  },
+  "keywords": [
+    "angular",
+    "angular-material",
+    "material",
+    "datepicker",
+    "mat-datepicker",
+    "mat-date-adapter",
+    "adapter",
+    "typescript",
+    "dayjs",
+    "date",
+    "iso",
+    "utc"
+  ],
   "peerDependencies": {
     "@angular/common": "^12.2.0",
-    "@angular/core": "^12.2.0"
-  },
-  "dependencies": {
-    "tslib": "^2.3.0"
+    "@angular/core": "^12.2.0",
+    "@angular/material": ">=8.0.0",
+    "dayjs": "^1.10.7",
+    "tslib": "^2.2.0"
   }
 }
